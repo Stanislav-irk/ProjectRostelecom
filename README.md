@@ -21,6 +21,6 @@
 Описание оформленных дефектов.
 
 # В корне проекта содержаться:
-conftest.py  
+conftest.py https://github.com/Stanislav-irk/ProjectRostelecom/blob/master/conftest.py  
 README.md 
 requirements.txt 
