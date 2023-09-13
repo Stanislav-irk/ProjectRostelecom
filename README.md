@@ -20,7 +20,31 @@
 Набор автотестов на GitHub. Обратите внимание, что в репозитории должен находиться файл README.md, где будет описано, что именно проверяют данные тестовые сценарии и какие команды необходимо выполнить для запуска тестов. Описанные команды должны работать на любом компьютере с установленными Python3 и PyTest.
 Описание оформленных дефектов.
 
-# В корне проекта содержаться:
+В корне проекта содержаться:
 1. conftest.py https://github.com/Stanislav-irk/ProjectRostelecom/blob/master/conftest.py 
-2. README.md 
-3. requirements.txt 
+2. README.md https://github.com/Stanislav-irk/ProjectRostelecom/blob/master/README.md
+3. requirements.txt https://github.com/Stanislav-irk/ProjectRostelecom/blob/master/requirements.txt
+
+### Директория pages содержит:
+1. base_page.py
+2. auth_page.py
+
+### Директория tests содержит:
+1. base_test.py
+2. test_auth.py
+
+### Директория utilities содержит:
+1. locators.py
+2. test_data.py
+
+### Тест кейсы и баг-репорты:
+https://docs.google.com/spreadsheets/d/1hvtgUnB99jjwjOEiX8X8R0yI8e9Ka1ZivB4N95Pmk4Y/edit?usp=sharing
+
+#### При разработке тест-кейсов были применены следующие техники тест-дизайна:
+1.Эквивалентное разбиение
+2.Анализ граничных значений
+3.Предугадывание ошибок
+
+#### Запуск тестов:
+1. Установить все библиотеки и зависимости: pip install -r requirements.txt.
+2. Запустить тесты: pytest tests/test_auth.py.
